@@ -3,7 +3,7 @@ using Nethereum.Web3;
 
 namespace NethereumBlog
 {
-    internal class TestEvent
+    internal class TestStruct
     {
         internal static async Task GetMessagesAsync()
         {
