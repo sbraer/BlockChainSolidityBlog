@@ -1,0 +1,40 @@
+[
+  {
+    "inputs": [],
+    "name": "GetMessages",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "Counter",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "Message",
+            "type": "string"
+          }
+        ],
+        "internalType": "struct TestEvent.Message[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "message",
+        "type": "string"
+      }
+    ],
+    "name": "SendMessage",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
